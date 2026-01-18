@@ -6,10 +6,10 @@ Threat modeling is the process of analyzing a system to identify security and pr
 
 ## Key Questions in Threat Modeling
 
-What system are we working on?
-What can go wrong?
-What actions can we take to reduce or mitigate risks?
-Have we done enough to address the identified threats?
++ What system are we working on?
++ What can go wrong?
++ What actions can we take to reduce or mitigate risks?
++ Have we done enough to address the identified threats?
 
 ## Why Threat Modeling is Important?
 
