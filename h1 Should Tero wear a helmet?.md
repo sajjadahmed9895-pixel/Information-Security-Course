@@ -177,10 +177,10 @@ IT security includes different practices and tools that help protect systems, ne
   * Apply security patches promptly to fix known vulnerabilities.
   * Update third-party software such as browsers, plugins, and antivirus tools.
 + Use Strong and Unique Passwords:
- * Create passwords with a mix of uppercase, lowercase, numbers, and symbols.
- * Avoid same password everywhere, common words, personal information, and predictable patterns.
- * Use unique passwords for different accounts.
- * Change passwords regularly.
+  * Create passwords with a mix of uppercase, lowercase, numbers, and symbols.
+  * Avoid same password everywhere, common words, personal information, and predictable patterns.
+  * Use unique passwords for different accounts.
+  * Change passwords regularly.
 + Enable Multi-Factor Authentication:
  * Require more than one authentication factor
  * Use MFA for email, cloud services, banking, and administrative accounts.
