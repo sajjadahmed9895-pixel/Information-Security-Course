@@ -182,25 +182,25 @@ IT security includes different practices and tools that help protect systems, ne
   * Use unique passwords for different accounts.
   * Change passwords regularly.
 + Enable Multi-Factor Authentication:
- * Require more than one authentication factor
- * Use MFA for email, cloud services, banking, and administrative accounts.
- * Reduce the risk of unauthorized access significantly.
+  * Require more than one authentication factor
+  * Use MFA for email, cloud services, banking, and administrative accounts.
+  * Reduce the risk of unauthorized access significantly.
 + Educate Employees on IT Security:
- * Training employees on password hygiene, phishing awareness and safe browsing.
- * Teach employees to recognize suspicious emails and links.
- * Conduct regular security awareness training.
- * Traning for handling sensitive data.
- * Encourage reporting of suspicious activities or security incidents.
+  * Training employees on password hygiene, phishing awareness and safe browsing.
+  * Teach employees to recognize suspicious emails and links.
+  * Conduct regular security awareness training.
+  * Traning for handling sensitive data.
+  * Encourage reporting of suspicious activities or security incidents.
 + Regularly Backup and Encrypt Data:
- * Perform regular backups to prevent data loss.
- * Store backups securely, preferably off-site or in the cloud.
- * Ensure backups are tested and recoverable.
+  * Perform regular backups to prevent data loss.
+  * Store backups securely, preferably off-site or in the cloud.
+  * Ensure backups are tested and recoverable.
 + Monitor and Detect Security Threats:
- * Continuously monitor systems, networks, and user activity.
- * Review logs and security alerts regularly.
- * Detect insider threats using user behavior analytics (UBA).
+  * Continuously monitor systems, networks, and user activity.
+  * Review logs and security alerts regularly.
+  * Detect insider threats using user behavior analytics (UBA).
 + Conduct Security Audits and Vulnerability Assessments:
- * Perform regular security audits to evaluate controls and policies.
- * Identify gaps in access control, encryption and system configurations.
- * vulnerability assessments to identifying potential weaknesses in the system.
- * Prioritize and address vulnerabilities before they can be exploited and reducing the risk of a security breach (it-pillars, 2025).
+  * Perform regular security audits to evaluate controls and policies.
+  * Identify gaps in access control, encryption and system configurations.
+  * vulnerability assessments to identifying potential weaknesses in the system.
+  * Prioritize and address vulnerabilities before they can be exploited and reducing the risk of a security breach (it-pillars, 2025).
