@@ -54,7 +54,8 @@ Threat modeling is based on four simple questions:
 
 ## What Are We Building?
 
-## Data Flow Diagrams (DFDs) are commonly used to visualize the system. Five elements of DFDs:
+## Data Flow Diagrams (DFDs) are commonly used to visualize the system.
++ Five elements of DFDs:
   * External entities.
   * Processes
   * Data flows
@@ -110,4 +111,60 @@ Once threats are identified, actions must be taken:
 + Provide regular security training for developers
 + Use tools that simplify and automate threat modeling.
 
+# Darkest Daires Podcast: EP 113: Adam
 
+## Adam’s background:
++ Grew up bullied and unprotected in Australia as a result lost trust in police after failed intervention.
++ Joined a gang for protection and belonging, which led to crime and prison.
++ Moved to the UK for a fresh start and tried to rebuild his life through IT work.
+
+## First IT job at the School Academy:
++ Adam worked as an IT apprentice at a private high school.
++ Discovering his criminal record through a background check, the school later terminated his employment.
++ Felt betrayed and angry, despite trying to change his life.
+
+## Major security weaknesses at the Academy:
+
++ Same local admin password used across all computers.
++ Password patterns were predictable.
++ Reused across multiple systems.
++ Never changed after Adam left.
+
+## Unauthorized access 4 years later:
+
++ Adam logged into the school’s Office 365 using old-valid admin credentials.
++ Read emails, monitored alerts and avoided detection initially.
++ Escalated access by changing a super admin password.
++ Adam found VPN credentials, moved across servers, backups and domain controls.
+
+## Destructive actions:
+
++ Deleted user accounts and infrastructure.
++ Remotely wiped nearly 3,000 mobile devices including students, staff and parents.
++ A complete shutdown of the school’s digital operations.
++ Caused total system outage during COVID remote learning.
++ School's financial losses were significant and some data was permanently lost.
+
+## Police investigation and arrest:
+
++ Adam was traced through his IP address.
++ Adam cooperated fully and confessed.
++ He explained how he accessed the systems, what accounts he used and what actions he took.
+
+## Second attack on another employer:
+
++ Adam had attacked another employer after being fired.
++ This time he had a disagreement about using the companies credit card.
++ He changed passwords and disrupted systems as revenge.
++ Arrested again and charged from both cases were combined.
+
+## Court Case sentencing and consequences:
+
++ In February 2022, Adam was sentenced to 21 months in prison.
++ His IT career was effectively destroyed
+
+## Main lesson:
+
++ Organizations must change admin passwords immediately when staff leave.
++ Least privilege and strong password policies are critical.
++ Personal anger and poor emotional control can destroy lives.
