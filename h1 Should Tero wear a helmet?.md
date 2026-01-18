@@ -18,7 +18,7 @@ Supports better design and implementation decisions.
 Threats identified guide development, testing and post-deployment improvements.
 Encourages continuous security improvement.
 
-##Using the Threat Modeling Manifesto
+## Using the Threat Modeling Manifesto
 
 Acts as a guiding framework rather than a step-by-step method.
 Can be adapted to fit different organizational needs.
