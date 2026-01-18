@@ -13,14 +13,14 @@ Threat modeling is the process of analyzing a system to identify security and pr
 
 ## Why Threat Modeling is Important?
 
-Helps identify security and privacy issues early in the system lifecycle.
-Supports better design and implementation decisions.
-Threats identified guide development, testing and post-deployment improvements.
-Encourages continuous security improvement.
++ Helps identify security and privacy issues early in the system lifecycle.
++ Supports better design and implementation decisions.
++ Threats identified guide development, testing and post-deployment improvements.
++ Encourages continuous security improvement.
 
 ## Using the Threat Modeling Manifesto
 
-Acts as a guiding framework rather than a step-by-step method.
-Can be adapted to fit different organizational needs.
-Focuses on effectiveness rather than tools or rigid processes.
-Inspired by the Agile Manifesto.
++ Acts as a guiding framework rather than a step-by-step method.
++ Can be adapted to fit different organizational needs.
++ Focuses on effectiveness rather than tools or rigid processes.
++ Inspired by the Agile Manifesto.
