@@ -1,3 +1,5 @@
-# h1- Hello World
+# Braiterman et al 2020: threat modeling menifesto:
 
-##
+## What is Threat Modeling?
+
+Threat modeling is the process of analyzing a system to identify security and privacy risks. It helps understand how a system works and where it might be vulnerable to threats.
