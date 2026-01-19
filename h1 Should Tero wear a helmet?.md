@@ -54,7 +54,7 @@ Threat modeling is based on four simple questions:
 
 ## What Are We Building?
 
-## Data Flow Diagrams (DFDs) are commonly used to visualize the system.
+Data Flow Diagrams (DFDs) are commonly used to visualize the system.
 + Five elements of DFDs:
   * External entities.
   * Processes
@@ -204,3 +204,44 @@ IT security includes different practices and tools that help protect systems, ne
   * Identify gaps in access control, encryption and system configurations.
   * vulnerability assessments to identifying potential weaknesses in the system.
   * Prioritize and address vulnerabilities before they can be exploited and reducing the risk of a security breach (it-pillars, 2025).
+
+  # Threat Model for an Imaginary Company – PhonePay
+
+  ## Business description and goal:
+
+PhonePay is a Finland based company offering a mobile wallet application for customers across the European Union.The service enables users to store money, make fast peer-to-peer (P2P) transfers, pay merchants online and in-store with linking their EU bank accounts. Revenue is generated through transaction fees, merchant fees and premium user accounts.
+
+## Business Narrative:
+
++ Business stakeholders define requirements such as customer trust, low transaction friction and high availability.
++ Technical specialists design and operate the mobile app, backend systems, APIs and security controls that implement these requirements.
++ Security supports the business by protecting money and identities, ensuring uninterrupted payment services and maintaining trust so customers continue using PhonePay.
+
+## 4 Threat modeling manifesto
+
+## What are we working on?
+
+Business Assest are identified based on how important they are to the business.
++ High-value assets:
+ * Customer funds stored in PhonePay wallets
+ * Correctness and integrity of transactions
+ * Customer authentication credentials
+ * User personal information or KYC data
+ * Linked bank account information
+ * Payment and transaction logs
+ * Customer trust and PhonePay brand reputation
++ Lower-valued assets:
+  * PhonePay wallets internal dashboards
+  * Marketing website content
+
+ ## Customer Perspective
+
+From the customer’s point of view, PhonePay is mainly used through the mobile app. Customers expect the app to be simple, fast and always available.
+
++ Customer touchpoints:
+  * Mobile application (iOS and Android)
+  * Push notifications and email receipts
+  * Customer support portal
+ 
+
+
