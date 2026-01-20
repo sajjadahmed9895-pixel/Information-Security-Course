@@ -223,13 +223,13 @@ PhonePay is a Finland based company offering a mobile wallet application for cus
 
 Business Assest are identified based on how important they are to the business.
 + High-value assets:
- * Customer funds stored in PhonePay wallets
- * Correctness and integrity of transactions
- * Customer authentication credentials
- * User personal information or KYC data
- * Linked bank account information
- * Payment and transaction logs
- * Customer trust and PhonePay brand reputation
+  * Customer funds stored in PhonePay wallets
+  * Correctness and integrity of transactions
+  * Customer authentication credentials
+  * User personal information or KYC data
+  * Linked bank account information
+  * Payment and transaction logs
+  * Customer trust and PhonePay brand reputation
 + Lower-valued assets:
   * PhonePay wallets internal dashboards
   * Marketing website content
@@ -249,9 +249,8 @@ From the customer’s point of view, PhonePay is mainly used through the mobile 
 To continue receiving revenue, PhonePay must ensure that payments work reliably and securely all times.
 
 ## Company systems diagram
-
-Customer ---> Mobile App ---> API Gateway ---> Authentication Service ---> Wallet Service ---> Transaction Database ---> Banking API Gateway | Encrypted Backups | Admin Console ---> Monitoring, Logs, Fraud Detection
 This system diagram represents what must function correctly in order for PhonePay to serve customers and get paid.
+Customer ---> Mobile App ---> API Gateway ---> Authentication Service ---> Wallet Service ---> Transaction Database ---> Banking API Gateway | Encrypted Backups | Admin Console ---> Monitoring, Logs, Fraud Detection
 
 ## 2) What Can Go Wrong?
 
@@ -294,17 +293,17 @@ This step is about deciding what PhonePay will actually do in response to the ri
 ## Risk Treatment (META)
 
 + Mitigating threats:
- * Multi-factor authentication for users and administrators
- * Encryption of sensitive data
- * Fraud detection and monitoring
+  * Multi-factor authentication for users and administrators
+  * Encryption of sensitive data
+  * Fraud detection and monitoring
 + Eliminating threats:
- * Remove unused services and APIs
- * Avoid storing unnecessary sensitive data
+  * Remove unused services and APIs
+  * Avoid storing unnecessary sensitive data
 + Transferring threats:
- * Cyber insurance for fraud and scame
- * Use regulated banking partners to hold funds
+  * Cyber insurance for fraud and scame
+  * Use regulated banking partners to hold funds
 + Accepting threats:
- * Limited downtime during planned maintenance
+  * Limited downtime during planned maintenance
 These measures aim to reduce the likelihood and impact of the most important risks while supporting business goals.
 
 ## 4) Did We Do a Good Enough Job?
