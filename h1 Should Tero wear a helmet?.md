@@ -205,9 +205,9 @@ IT security includes different practices and tools that help protect systems, ne
   * vulnerability assessments to identifying potential weaknesses in the system.
   * Prioritize and address vulnerabilities before they can be exploited and reducing the risk of a security breach (it-pillars, 2025).
 
-  # Threat Model for an Imaginary Company – PhonePay
+# Threat Model for an Imaginary Company – PhonePay
 
-  ## Business description and goal:
+## Business description and goal:
 
 PhonePay is a Finland based company offering a mobile wallet application for customers across the European Union.The service enables users to store money, make fast peer-to-peer (P2P) transfers, pay merchants online and in-store with linking their EU bank accounts. Revenue is generated through transaction fees, merchant fees and premium user accounts.
 
@@ -242,6 +242,16 @@ From the customer’s point of view, PhonePay is mainly used through the mobile 
   * Mobile application (iOS and Android)
   * Push notifications and email receipts
   * Customer support portal
- 
++ From the customer’s perspective, PhonePay must:
+ * Always be available when payments are needed
+ * Protect money and personal data
+ * Process transactions accurately and instantly
 
+## Company systems diagram
+
+Customer ---> Mobile App ---> API Gateway ---> Authentication Service ---> Wallet Service ---> Transaction Database ---> Banking API Gateway
+                                                                                                        |                         
+                                                                                                Encrypted Backups
+                                                                                                  Admin Console ---> Monitoring, Logs, Fraud Detection
+This system diagram represents what must function correctly in order for PhonePay to serve customers and get paid.
 
