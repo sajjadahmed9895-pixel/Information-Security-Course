@@ -219,7 +219,7 @@ PhonePay is a Finland based company offering a mobile wallet application for cus
 
 ## 4 Threat modeling manifesto
 
-## What are we working on?
+## 1)What are we working on?
 
 Business Assest are identified based on how important they are to the business.
 + High-value assets:
@@ -243,15 +243,68 @@ From the customer’s point of view, PhonePay is mainly used through the mobile 
   * Push notifications and email receipts
   * Customer support portal
 + From the customer’s perspective, PhonePay must:
- * Always be available when payments are needed
- * Protect money and personal data
- * Process transactions accurately and instantly
+  * Always be available when payments are needed
+  * Protect money and personal data
+  * Process transactions accurately and instantly
+To continue receiving revenue, PhonePay must ensure that payments work reliably and securely all times.
 
 ## Company systems diagram
 
-Customer ---> Mobile App ---> API Gateway ---> Authentication Service ---> Wallet Service ---> Transaction Database ---> Banking API Gateway
-                                                                                                        |                         
-                                                                                                Encrypted Backups
-                                                                                                  Admin Console ---> Monitoring, Logs, Fraud Detection
+Customer ---> Mobile App ---> API Gateway ---> Authentication Service ---> Wallet Service ---> Transaction Database ---> Banking API Gateway | Encrypted Backups | Admin Console ---> Monitoring, Logs, Fraud Detection
 This system diagram represents what must function correctly in order for PhonePay to serve customers and get paid.
+
+## What Can Go Wrong?
+
+Threat Modeling Method STRIDE Analysis:
++ Spoofing: An attacker gains access to a user account using stolen credential
++ Tampering: Manipulation of transaction amounts.
++ Repudiation: Insufficient logging makes it difficult to prove who initiated a transaction.
++ Information Disclosure: Leakage of customer personal information or transaction data.
++ Denial of Service: An attack prevents users from making payments.
++ Elevation of Privilege: An attacker gains administrative access to backend systems.
+
+## High-Risk Prioritization
+
++ Account takeover fraud ---> Medium probability ---> 30,00,000$ (Very High)
++ Payment system outage (1 day) ---> medium probability ---> 10,00,000$ (High)
++ KYC data breach ---> Low–Medium probability ---> 25,00,000$ (Very High)
+
+## Threat Actors and Targeting
+
+Companies like PhonePay are primary targets for cybercriminals because they handle money.
++ Organized cybercriminal groups
++ Malicious insiders or competitors
++ Scammers pretends to be service provider
+
+## COI assessment
+
+The COI model helps to determine the "behavior" of an attacker, which is directly influenced by the combination of these three factors.
++ Capability: High, due to widely available attack tools.
++ Opportunity: High, because the system requires internet to run.
++ Intent: High, driven by direct financial gain
+
+## Business Continuity and Trust
+
+PhonePay must remain operational to continue earning revenue. Even short outages or security incidents can significantly damage customer trust, which is difficult to rebuild.
+
+## What Are We Going To Do About It?
+
+This step is about deciding what PhonePay will actually do in response to the risks identified. This treatment decisions are made jointly by business and technical teams.
+
+## Risk Treatment (META)
+
++ Mitigating threats:
+ * Multi-factor authentication for users and administrators
+ * Encryption of sensitive data
+ * Fraud detection and monitoring
++ Eliminating threats:
+ * Remove unused services and APIs
+ * Avoid storing unnecessary sensitive data
++ Transferring threats:
+ * Cyber insurance for fraud and scame
+ * Use regulated banking partners to hold funds
++ Accepting threats:
+ * Limited downtime during planned maintenance
+
+
 
