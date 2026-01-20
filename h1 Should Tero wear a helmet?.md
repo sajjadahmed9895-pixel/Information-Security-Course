@@ -221,7 +221,7 @@ PhonePay is a Finland based company offering a mobile wallet application for cus
 
 ## 1) What are we working on?
 
-Business Assest are identified based on how important they are to the business.
+This frist step of threat modeling is about clearly understanding the system before thinking about attacks. In other words, What exactly are we trying to protect and why does it matter to the business? Business Assest are identified based on how important they are to the business.
 + High-value assets:
   * Customer funds stored in PhonePay wallets
   * Correctness and integrity of transactions
@@ -237,7 +237,6 @@ Business Assest are identified based on how important they are to the business.
  ## Customer Perspective
 
 From the customer’s point of view, PhonePay is mainly used through the mobile app. Customers expect the app to be simple, fast and always available.
-
 + Customer touchpoints:
   * Mobile application (iOS and Android)
   * Push notifications and email receipts
@@ -254,6 +253,7 @@ Customer ---> Mobile App ---> API Gateway ---> Authentication Service ---> Walle
 
 ## 2) What Can Go Wrong?
 
+This step is about thinking like an attacker and like the business at the same time. If we run PhonePay, what bad things could happen to our system, our customers and our business. So, STRIDE helps to ask six simple questions that help to analyse problems can happen.
 Threat Modeling Method STRIDE Analysis:
 + Spoofing: An attacker gains access to a user account using stolen credential
 + Tampering: Manipulation of transaction amounts.
@@ -264,9 +264,9 @@ Threat Modeling Method STRIDE Analysis:
 
 ## High-Risk Prioritization
 
-+ Account takeover fraud ---> Medium probability ---> 30,00,000$ (Very High)
-+ Payment system outage (1 day) ---> medium probability ---> 10,00,000$ (High)
-+ KYC data breach ---> Low–Medium probability ---> 25,00,000$ (Very High)
++ Account takeover fraud ---> Medium Probability ---> 30,00,000$ (Very High Impact)
++ Payment system outage (1 day) ---> medium Probability ---> 10,00,000$ (High Impact)
++ KYC data breach ---> Low–Medium Probability ---> 25,00,000$ (Very High Impact)
 
 ## Threat Actors and Targeting
 
@@ -311,14 +311,14 @@ These measures aim to reduce the likelihood and impact of the most important ris
 This final stage of the process is simply about continually improving out threat modelling processes, which is not a one time activity but an ongoing process.
 
 + Evaluation and Improvement:
- * Monthly internal and external security audits
- * Penetration testing of the mobile app and APIs
- * Continuous monitoring and alerting
- * Incident response quickly
+  * Monthly internal and external security audits
+  * Penetration testing of the mobile app and APIs
+  * Continuous monitoring and alerting
+  * Incident response quickly
 + Continuous Threat Modeling:
- * Update based on new threat intelligence
- * Reassess risks based on emerging fraud techniques
- * lessons learned from incidents
+  * Update based on new threat intelligence
+  * Reassess risks based on emerging fraud techniques
+  * lessons learned from incidents
 This threat model demonstrates how security supports PhonePay’s business by protecting customer funds, ensuring availability and maintaining trust.
 
 # References
