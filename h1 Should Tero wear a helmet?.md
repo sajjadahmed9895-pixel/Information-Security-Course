@@ -219,7 +219,7 @@ PhonePay is a Finland based company offering a mobile wallet application for cus
 
 ## 4 Threat modeling manifesto
 
-## 1)What are we working on?
+## 1) What are we working on?
 
 Business Assest are identified based on how important they are to the business.
 + High-value assets:
@@ -253,7 +253,7 @@ To continue receiving revenue, PhonePay must ensure that payments work reliably 
 Customer ---> Mobile App ---> API Gateway ---> Authentication Service ---> Wallet Service ---> Transaction Database ---> Banking API Gateway | Encrypted Backups | Admin Console ---> Monitoring, Logs, Fraud Detection
 This system diagram represents what must function correctly in order for PhonePay to serve customers and get paid.
 
-## What Can Go Wrong?
+## 2) What Can Go Wrong?
 
 Threat Modeling Method STRIDE Analysis:
 + Spoofing: An attacker gains access to a user account using stolen credential
@@ -287,7 +287,7 @@ The COI model helps to determine the "behavior" of an attacker, which is directl
 
 PhonePay must remain operational to continue earning revenue. Even short outages or security incidents can significantly damage customer trust, which is difficult to rebuild.
 
-## What Are We Going To Do About It?
+## 3) What Are We Going To Do About It?
 
 This step is about deciding what PhonePay will actually do in response to the risks identified. This treatment decisions are made jointly by business and technical teams.
 
@@ -305,6 +305,25 @@ This step is about deciding what PhonePay will actually do in response to the ri
  * Use regulated banking partners to hold funds
 + Accepting threats:
  * Limited downtime during planned maintenance
+These measures aim to reduce the likelihood and impact of the most important risks while supporting business goals.
+
+## 4) Did We Do a Good Enough Job?
+
+This final stage of the process is simply about continually improving out threat modelling processes, which is not a one time activity but an ongoing process.
+
++ Evaluation and Improvement:
+ * Monthly internal and external security audits
+ * Penetration testing of the mobile app and APIs
+ * Continuous monitoring and alerting
+ * Incident response quickly
++ Continuous Threat Modeling:
+ * Update based on new threat intelligence
+ * Reassess risks based on emerging fraud techniques
+ * lessons learned from incidents
+This threat model demonstrates how security supports PhonePay’s business by protecting customer funds, ensuring availability and maintaining trust.
+
+# References
+
 
 
 
