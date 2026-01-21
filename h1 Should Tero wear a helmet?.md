@@ -322,7 +322,7 @@ This final stage of the process is simply about continually improving out threat
 This threat model demonstrates how security supports PhonePay’s business by protecting customer funds, ensuring availability and maintaining trust.
 
 # References
-
++ threatmodelingmanifesto, blog, https://www.threatmodelingmanifesto.org/
 
 
 
