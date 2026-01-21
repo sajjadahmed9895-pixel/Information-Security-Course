@@ -221,7 +221,7 @@ PhonePay is a Finland based company offering a mobile wallet application for cus
 
 ## 1) What are we working on?
 
-This frist step of threat modeling is about clearly understanding the system before thinking about attacks. In other words, What exactly are we trying to protect and why does it matter to the business? Business Assest are identified based on how important they are to the business.
+This frist step of threat modeling is about clearly understanding the system before thinking about attacks. In other words, What exactly are we trying to protect and why does it matter to the business (ncsc.gov.uk, ). Business Assest are identified based on how important they are to the business.
 + High-value assets:
   * Customer funds stored in PhonePay wallets
   * Correctness and integrity of transactions
@@ -248,12 +248,13 @@ From the customer’s point of view, PhonePay is mainly used through the mobile 
 To continue receiving revenue, PhonePay must ensure that payments work reliably and securely all times.
 
 ## Company systems diagram
-This system diagram represents what must function correctly in order for PhonePay to serve customers and get paid.
+
+This system diagram represents what must function correctly in order for PhonePay to serve customers and get paid (piceworks, 2026).
 Customer ---> Mobile App ---> API Gateway ---> Authentication Service ---> Wallet Service ---> Transaction Database ---> Banking API Gateway | Encrypted Backups | Admin Console ---> Monitoring, Logs, Fraud Detection
 
 ## 2) What Can Go Wrong?
 
-This step is about thinking like an attacker and like the business at the same time. If we run PhonePay, what bad things could happen to our system, our customers and our business. So, STRIDE helps to ask six simple questions that help to analyse problems can happen.
+This step is about thinking like an attacker and like the business at the same time. If we run PhonePay, what bad things could happen to our system, our customers and our business. So, STRIDE helps to ask six simple questions that help to analyse problems can happen (fortinet, 2026).
 Threat Modeling Method STRIDE Analysis:
 + Spoofing: An attacker gains access to a user account using stolen credential
 + Tampering: Manipulation of transaction amounts.
@@ -272,8 +273,8 @@ Threat Modeling Method STRIDE Analysis:
 
 Companies like PhonePay are primary targets for cybercriminals because they handle money.
 + Organized cybercriminal groups
-+ Malicious insiders or competitors
-+ Scammers pretends to be service provider
++ Malicious insiders or competitors (flashpoint.io)
++ Scammers pretends to be service provider (Arick Disilva, 2026)
 
 ## COI assessment
 
@@ -304,11 +305,11 @@ This step is about deciding what PhonePay will actually do in response to the ri
   * Use regulated banking partners to hold funds
 + Accepting threats:
   * Limited downtime during planned maintenance
-These measures aim to reduce the likelihood and impact of the most important risks while supporting business goals.
+These measures aim to reduce the likelihood and impact of the most important risks while supporting business goals (Shostack, 2026).
 
 ## 4) Did We Do a Good Enough Job?
 
-This final stage of the process is simply about continually improving out threat modelling processes, which is not a one time activity but an ongoing process.
+This final stage of the process is simply about continually improving out threat modelling processes, which is not a one time activity but an ongoing process (owasp.org, 2021).
 
 + Evaluation and Improvement:
   * Monthly internal and external security audits
@@ -322,7 +323,17 @@ This final stage of the process is simply about continually improving out threat
 This threat model demonstrates how security supports PhonePay’s business by protecting customer funds, ensuring availability and maintaining trust.
 
 # References
-+ threatmodelingmanifesto, blog, https://www.threatmodelingmanifesto.org/
++ flashpoint.io, blog, https://flashpoint.io/intelligence-101/threat-actor/
++ Arick Disilva, 2026, blog, https://www.teramind.co/blog/types-of-threat-actors/
++ Shostack, blog, 2026, https://shostack.org/resources/threat-modeling
++ it-pillars, blog, https://www.it-pillars.com/blog/it-security/
++ fortinet, 2026, blog, https://www.fortinet.com/resources/cyberglossary/threat-modeling
++ piceworks, 2026, blog, https://www.spiceworks.com/security/what-is-threat-modeling-definition-process-examples-and-best-practices/
++ Braiterman et al 2020, threatmodelingmanifesto, blog, https://www.threatmodelingmanifesto.org/
++ cheatsheetseries, 2021, blog, https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet.html
++ Adam Shostack, 2022, video, https://www.youtube.com/playlist?list=PLCVhBqLDKoOOZqKt74QI4pbDUnXSQo0nf
++ darknetdiaries, 2022, podcast, https://darknetdiaries.com/episode/113/
+
 
 
 
