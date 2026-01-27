@@ -25,7 +25,7 @@
 
 ## My Question
 
-+ how realistic it is for small or resource-limited organizations to build and maintain this level of intelligence-driven defense compared to large organizations like Lockheed Martin?.
++ How realistic it is for small or resource-limited organizations to build and maintain this level of intelligence-driven defense compared to large organizations like Lockheed Martin?.
 + If attackers keep changing their tools and methods or technique, does that make them harder for defenders to recognize and track?
 
 # Tactics, tools and procedures
