@@ -92,12 +92,20 @@ Injection is ranked as one of the most critical vulnerabilities in the OWASP Top
 
 # Install WebGoat 2023.4
 
-+ First i checked java is installad or not so i found it was not. So then installed it with these command "sudo apt-get update" then "sudo apt-get install openjdk-17-jre"
-+ To keep safe, I should have a firewall. So i installed that too.
++ First I checked java is installad or not so I found it was not. So then installed it with these command "sudo apt-get update" then "sudo apt-get install openjdk-17-jre"
++ To keep safe, I should have a firewall. So I installed that too.
 + Before downloaded the  WebGoat JAR file i had to installed wget in my linux platfrom by this command "sudo apt install wget".
-+ Then i ran this command to download this file "wget https://github.com/WebGoat/WebGoat/releases/download/v2023.4/webgoat-2023.4.jar".
++ Then I ran this command to download this file "wget https://github.com/WebGoat/WebGoat/releases/download/v2023.4/webgoat-2023.4.jar".
 + At some point it told you go on a platfrom http://127.0.0.1:8888/WebGoat where i had to creat user id to enter the WebGoat platfrom.
++ So I created a ID for me and it looks like this:
 ![WhatsApp Image 2026-02-08 at 8 41 50 PM](https://github.com/user-attachments/assets/9a92e2eb-47fc-4392-a901-0e55942e3761)
+
+# Developer Tools Exercise
+
++ In this exercise, browser developer tools were used to inspect the webpage structure and analyze hidden elements. By opening the developer tools with F12, it was possible to view HTML elements, hidden fields, and network requests. There was couple of wanrings in the console pannel.
+
+![WhatsApp Image 2026-02-08 at 8 50 16 PM](https://github.com/user-attachments/assets/3c10806f-4b8a-4db0-9671-49389e6dd7a5)
+
 
   
 
