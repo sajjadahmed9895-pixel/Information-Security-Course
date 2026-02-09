@@ -61,14 +61,14 @@ Vulnerable and outdated components is also a major security risk identified in O
 + Compatibility testing is not done after updates.
 + Component configurations are not secured properly.
 
-  ## Prevention Methods
+## Prevention Methods
 
-  + Maintain a proper patch management process.
-  + Remove unused dependencies and unnecessary features.
-  + Keep an updated inventory of all components and versions.
-  + Monitor CVE and security vulnerability databases.
-  + Download components only from official trusted sources.
-  + Maintain continuous update and monitoring processes during the application lifecycle.
++ Maintain a proper patch management process.
++ Remove unused dependencies and unnecessary features.
++ Keep an updated inventory of all components and versions.
++ Monitor CVE and security vulnerability databases.
++ Download components only from official trusted sources.
++ Maintain continuous update and monitoring processes during the application lifecycle.
 
   # A03:2021 — Injection
 
@@ -105,6 +105,20 @@ Injection is ranked as one of the most critical vulnerabilities in the OWASP Top
 + In this exercise, browser developer tools were used to inspect the webpage structure and analyze hidden elements. By opening the developer tools with F12, it was possible to view HTML elements, hidden fields, and network requests. There was couple of wanrings in the console pannel.
 
 ![WhatsApp Image 2026-02-08 at 8 50 16 PM](https://github.com/user-attachments/assets/3c10806f-4b8a-4db0-9671-49389e6dd7a5)
+
+# SQLZoo
+
+The SQLZoo platform was used to practice basic SQL queries.
+
+## SELECT basics
+
++ 1st query was modified by replacing the country name in the WHERE condition. By changing 'France' to 'Germany', the SQL statement retrieved the population value for Germany.
++ 2nd query was modified by replacing the country name in the WHERE condition with Sweden, Norway, and Denmark.
+
+## SELECT from WORLD Tutorial
+
++ In 1st exercise, a basic SQL query was used to retrieve data from a database table. The command:SELECT name, continent, population FROM world; was executed to display the name, continent, and population for all countries stored in the “world” table.
++ In this task, the goal was to display the names of countries with a population of at least 200 million. So, I added greater-than and equal operator (>=) to select countries whose population was 200,000,000 or higher.
 
 
   
