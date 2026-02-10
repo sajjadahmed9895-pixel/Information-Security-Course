@@ -118,7 +118,19 @@ The SQLZoo platform was used to practice basic SQL queries.
 ## SELECT from WORLD Tutorial
 
 + In 1st exercise, a basic SQL query was used to retrieve data from a database table. The command:SELECT name, continent, population FROM world; was executed to display the name, continent, and population for all countries stored in the “world” table.
-+ In this task, the goal was to display the names of countries with a population of at least 200 million. So, I added greater-than and equal operator (>=) to select countries whose population was 200,000,000 or higher.
++ In the 2nd task, the goal was to display the names of countries with a population of at least 200 million. So, I added greater-than and equal operator (>=) to select countries whose population was 200,000,000 or higher.
+
+# PortSwigger Lab — SQL Injection Vulnerability
+
+SQL injection (SQLi) is a web security vulnerability where an attacker can interfere with database queries by inserting malicious input. By inserting special SQL characters such as a single quote ('), it was possible to observe changes in application behavior, indicating that the input was affecting the SQL query structure. SQL injection vulnerabilities commonly occur when user input is placed directly inside a WHERE clause. Another method is using Boolean conditions like OR 1=1, which always evaluates to true. According to PortSwigger, attackers can use SQL injection to access hidden data, modify database contents, or bypass application logic.
++ The is the query likely looked like: SELECT * FROM products WHERE category = 'Gifts' AND released = 1
++ When the attacker exploit SQL injection : ' OR 1=1 --
+  * ' closes the original string inside the SQL query.
+  * OR 1=1 adds a condition that is always true, causing the database to return all results, including hidden data.
+  * -- comments out the rest of the query, removing restrictions such as filtering unreleased products.
+This demonstrates how attackers can manipulate database queries when user input is not properly handled. SQL injection vulnerabilities occur when applications fail to separate user data from SQL commands. The recommended prevention is to use parameterized queries and proper input validation.
+
+
 
 
   
