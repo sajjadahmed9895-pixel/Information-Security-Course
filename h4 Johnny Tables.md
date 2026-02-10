@@ -128,6 +128,7 @@ SQL injection (SQLi) is a web security vulnerability where an attacker can inter
   * ' closes the original string inside the SQL query.
   * OR 1=1 adds a condition that is always true, causing the database to return all results, including hidden data.
   * -- comments out the rest of the query, removing restrictions such as filtering unreleased products.
+
 This demonstrates how attackers can manipulate database queries when user input is not properly handled. SQL injection vulnerabilities occur when applications fail to separate user data from SQL commands. The recommended prevention is to use parameterized queries and proper input validation.
 
 
