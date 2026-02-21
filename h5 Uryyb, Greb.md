@@ -33,7 +33,7 @@ This article explains how to use PGP encryption with the GNU Privacy Guard (gpg)
 + Here I decrypted the message using my private key. "gpg --decrypt encrypted.pgp" also verified Alice’s signature using her public key that confirming the message had not been modified.
 <img width="825" height="550" alt="6" src="https://github.com/user-attachments/assets/09b0885a-0ee3-48b4-a291-5d1c21153556" />
 
-## Install OpenSSH server and connect using ssh client
+# Install OpenSSH server and connect using ssh client
 
 + I installed the OpenSSH server using (sudo apt install openssh-server) apt package manager. SSH allows secure remote access to a system using encrypted communication.
 + Then I started the SSH service using "sudo systemctl start ssh". Afterwards i checked whether the server was running or not using "sudo systemctl status ssh" command.
@@ -42,13 +42,31 @@ This article explains how to use PGP encryption with the GNU Privacy Guard (gpg)
 + I connected to localhost using the ssh client, which simulates connecting to a remote machine securely.
 <img width="818" height="550" alt="ssh client" src="https://github.com/user-attachments/assets/0d6f1a95-f49a-4b29-9456-5c2f1af66bc5" />
 
-## Automate SSH connection using public keys
+# Automate SSH connection using public keys
 
 + I generated an SSH keypair using ssh-keygen.
 <img width="829" height="510" alt="saved" src="https://github.com/user-attachments/assets/e671b286-497a-428d-bebe-65148606acd1" />
 
 + Then I copied the public key to the server using ssh-copy-id sajjada@localhost. After this, I could connect using SSH without entering a password.
 <img width="824" height="548" alt="automate" src="https://github.com/user-attachments/assets/b803f608-3551-4fc1-a6d8-c497064e10fc" />
+
+# Password Manager open and cloudless
+
++ I installed KeePassXC, free, open-source, that works completely offline without cloud storage. The application stores passwords locally in an encrypted database file protected by a master password.
++ I created a new master password and saved the encrypted database file "Passwords.kdbx". This master password is required to unlock all stored credentials.
+<img width="814" height="800" alt="open" src="https://github.com/user-attachments/assets/56a94e4d-a62f-48af-baa6-de8a4052cfff" />
++ I added a sample account entry with a generated strong password to demonstrate usage. So basically, KeePassXC allows a secure storage, password generation, and controlled copying of credentials.
+<img width="817" height="800" alt="new pass" src="https://github.com/user-attachments/assets/eb91411a-9545-4717-a1a4-b8928eeeca10" />
+
+
+## Password managers are important because they:
+
++ Generate strong random passwords.
++ Protect against any kind of attacks.
++ Reduce risk of phishing
++ Prevent password reuse across other services
++ Eliminate need to remember multiple weak passwords
+
 
 
 
