@@ -68,13 +68,8 @@ This shows how password manager safely stores and retrieves passwords.
 
 + Generate strong random passwords.
 + Protect against any kind of attacks.
-+ Reduce risk of phishing
-+ Prevent password reuse across other services
-+ Eliminate need to remember multiple weak passwords
-
-# Pretty Good Indeed — Encrypt and Decrypt with GnuPG (PGP)
-
-GNU Privacy Guard (GPG) to encrypt and decrypt messages using PGP public key cryptography is PGP enables secure communication by combining encryption and digital signatures.
-
++ Reduce risk of phishing.
++ Prevent password reuse across other services.
++ Eliminate need to remember multiple weak passwords.
 
 
