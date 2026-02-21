@@ -55,9 +55,14 @@ This article explains how to use PGP encryption with the GNU Privacy Guard (gpg)
 + I installed KeePassXC, free, open-source, that works completely offline without cloud storage. The application stores passwords locally in an encrypted database file protected by a master password.
 + I created a new master password and saved the encrypted database file "Passwords.kdbx". This master password is required to unlock all stored credentials.
 <img width="814" height="800" alt="open" src="https://github.com/user-attachments/assets/56a94e4d-a62f-48af-baa6-de8a4052cfff" />
-+ I added a sample account entry with a generated strong password to demonstrate usage. So basically, KeePassXC allows a secure storage, password generation, and controlled copying of credentials.
+
++ Then I added a sample account entry with a generated strong password to demonstrate usage. So basically, KeePassXC allows a secure storage, password generation, and controlled copying of credentials.
 <img width="817" height="800" alt="new pass" src="https://github.com/user-attachments/assets/eb91411a-9545-4717-a1a4-b8928eeeca10" />
 
++ If I right-click on the entry and then copy password, it copies to clipboard so it auto clears after few seconds.
+<img width="822" height="635" alt="Problem" src="https://github.com/user-attachments/assets/492995ee-e937-40ed-bb7d-5008d8e2c6a4" />
+
+This shows how password manager safely stores and retrieves passwords.
 
 ## Password managers are important because they:
 
