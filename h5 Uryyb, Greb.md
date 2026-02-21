@@ -33,5 +33,22 @@ This article explains how to use PGP encryption with the GNU Privacy Guard (gpg)
 + Here I decrypted the message using my private key. "gpg --decrypt encrypted.pgp" also verified Alice’s signature using her public key that confirming the message had not been modified.
 <img width="825" height="550" alt="6" src="https://github.com/user-attachments/assets/09b0885a-0ee3-48b4-a291-5d1c21153556" />
 
-## 
+## Install OpenSSH server and connect using ssh client
+
++ I installed the OpenSSH server using (sudo apt install openssh-server) apt package manager. SSH allows secure remote access to a system using encrypted communication.
++ Then I started the SSH service using "sudo systemctl start ssh". Afterwards i checked whether the server was running or not using "sudo systemctl status ssh" command.
+<img width="825" height="550" alt="ssh running" src="https://github.com/user-attachments/assets/f962836b-9665-43c4-805a-b36b5c23c3d1" />
+
++ I connected to localhost using the ssh client, which simulates connecting to a remote machine securely.
+<img width="818" height="550" alt="ssh client" src="https://github.com/user-attachments/assets/0d6f1a95-f49a-4b29-9456-5c2f1af66bc5" />
+
+## Automate SSH connection using public keys
+
++ I generated an SSH keypair using ssh-keygen.
+<img width="829" height="510" alt="saved" src="https://github.com/user-attachments/assets/e671b286-497a-428d-bebe-65148606acd1" />
+
++ Then I copied the public key to the server using ssh-copy-id sajjada@localhost. After this, I could connect using SSH without entering a password.
+<img width="824" height="548" alt="automate" src="https://github.com/user-attachments/assets/b803f608-3551-4fc1-a6d8-c497064e10fc" />
+
+
 
