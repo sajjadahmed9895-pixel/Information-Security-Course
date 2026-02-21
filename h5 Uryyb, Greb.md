@@ -10,3 +10,16 @@ The basic concepts of cryptography by explaining how secure communication works 
 + Decryption: The process of converting ciphertext back into readable plaintext.
 
 So encryption protects the message during transmission, while decryption allows the receiver to recover the original content.
+
+# Karvinen (2023): PGP
+
+This article explains how to use PGP encryption with the GNU Privacy Guard (gpg) tool to send secure messages over an untrusted network such as the Internet.
+
++ First, I generated a PGP keypair using gpg --gen-key. The keypair consists of a public key and a private key. The public key can be shared with others, while the private key must remain secret. I verified the key creation using gpg --fingerprint.
+<img width="829" height="550" alt="1" src="https://github.com/user-attachments/assets/4ead5ce4-48c8-48cc-8c21-4ff4bf21c453" />
+
++ Then I exported my public key using ASCII armor format so it can be easily shared through email or text.
++ To simulate communication between two users, I created a separate directory representing another user (Alice). Using "gpg --homedir . --gen-key" stored keys separately.
++ Then imported my public key into alive to allow encryption toward me.
++ I wrote a message and encrypted using the recipient’s public key and signed using Alice’s private key.
++ Here I decrypted the message using my private key. "gpg --decrypt encrypted.pgp" also verified Alice’s signature using her public key that confirming the message had not been modified.
