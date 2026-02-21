@@ -72,6 +72,9 @@ This shows how password manager safely stores and retrieves passwords.
 + Prevent password reuse across other services
 + Eliminate need to remember multiple weak passwords
 
+# Pretty Good Indeed — Encrypt and Decrypt with GnuPG (PGP)
+
+GNU Privacy Guard (GPG) to encrypt and decrypt messages using PGP public key cryptography is PGP enables secure communication by combining encryption and digital signatures.
 
 
 
