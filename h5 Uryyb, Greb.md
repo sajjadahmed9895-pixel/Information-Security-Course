@@ -17,6 +17,7 @@ This article explains how to use PGP encryption with the GNU Privacy Guard (gpg)
 
 + First, I generated a PGP keypair using gpg --gen-key. The keypair consists of a public key and a private key. The public key can be shared with others, while the private key must remain secret. I verified the key creation using gpg --fingerprint.
 <img width="829" height="550" alt="1" src="https://github.com/user-attachments/assets/4ead5ce4-48c8-48cc-8c21-4ff4bf21c453" />
+
 + Then I exported my public key using ASCII armor format so it can be easily shared through email or text.
 <img width="737" height="507" alt="2" src="https://github.com/user-attachments/assets/d90fb8cf-934c-4ea7-b7d1-63189aab6e93" />
 
