@@ -22,6 +22,16 @@ This article explains how to use PGP encryption with the GNU Privacy Guard (gpg)
 <img width="737" height="507" alt="2" src="https://github.com/user-attachments/assets/d90fb8cf-934c-4ea7-b7d1-63189aab6e93" />
 
 + To simulate communication between two users, I created a separate directory representing another user (Alice). Using "gpg --homedir . --gen-key" stored keys separately.
+<img width="813" height="540" alt="3" src="https://github.com/user-attachments/assets/f3324fcc-0025-482e-934b-242368a63785" />
+
 + Then imported my public key into alive to allow encryption toward me.
+<img width="813" height="540" alt="4" src="https://github.com/user-attachments/assets/4f260978-cce7-416f-bd72-774f2a61d845" />
+
 + I wrote a message and encrypted using the recipient’s public key and signed using Alice’s private key.
+<img width="816" height="548" alt="5" src="https://github.com/user-attachments/assets/158768e8-288e-45f4-a9c2-c697aab318b9" />
+
 + Here I decrypted the message using my private key. "gpg --decrypt encrypted.pgp" also verified Alice’s signature using her public key that confirming the message had not been modified.
+<img width="825" height="550" alt="6" src="https://github.com/user-attachments/assets/09b0885a-0ee3-48b4-a291-5d1c21153556" />
+
+## 
+
