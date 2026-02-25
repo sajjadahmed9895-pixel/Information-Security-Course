@@ -74,7 +74,7 @@ This shows how password manager safely stores and retrieves passwords.
 
 # Presentation material
 
-I have already submitted presentation materials
+file:///C:/Users/sajja/Downloads/Cyber%20Security%20Case%20Studies%20By%20Sajjad.pdf
 
 # References
 
