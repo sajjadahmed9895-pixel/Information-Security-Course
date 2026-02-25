@@ -72,6 +72,10 @@ This shows how password manager safely stores and retrieves passwords.
 + Prevent password reuse across other services.
 + Eliminate need to remember multiple weak passwords.
 
+# Presentation material
+
+I have already submitted presentation materials
+
 # References
 
 + https://oit.utk.edu/security/learning-library/article-archive/password-managers/#:~:text=A%20password%20manager%20ensures%20each,Strong%20passwords%20protect%20your%20identity.
