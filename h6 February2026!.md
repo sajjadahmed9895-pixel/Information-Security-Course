@@ -13,9 +13,9 @@ Bruce Schneier explains that one-way functions are a fundamental concept in mode
 + Main purposeof it is to create a digital fingerprint of data.
 + Hash many names: message digest, fingerprint, checksum, MDC, MIC
 + How secure one-way hash functions:
- * Easy to compute hash from input.
- * Hard to reverse hash to original input.
- * Hard to find two different inputs with same hash
+  * Easy to compute hash from input.
+  * Hard to reverse hash to original input.
+  * Hard to find two different inputs with same hash
 + Hash functions are public and used for Password storage, File verification, Data integrity, Digital signatures.
 + Hashing allows verification without sharing the original file.
 + Message Authentication Code (MAC):
