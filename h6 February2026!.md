@@ -37,6 +37,15 @@ Bruce Schneier explains that one-way functions are a fundamental concept in mode
 + The result was successfully solved, revealing the original password was summer.
 <img width="822" height="545" alt="solved" src="https://github.com/user-attachments/assets/b4539af7-349b-43c1-8552-a8d3c0001591" />
 
+# Crack this hash: d595b2086532422bbe654bc07ea030df
+
++ i cracked this password in the same way did it before.
++ Identified the hash type and used Hashcat in MD5 mode (0) with the hashes.
++ To crack this hash i used hashcat with the RockYou wordlist, which contains over 14 million leaked passwords.
++ Hashcat performs a dictionary attack, compareed it to the target hash. Then a match was found and the original password was disobey.
+<img width="820" height="545" alt="cracked" src="https://github.com/user-attachments/assets/cb4207d9-7999-49c5-936b-5032c4253eae" />
+
+
 
 
 
