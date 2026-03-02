@@ -7,7 +7,7 @@ Bruce Schneier explains that one-way functions are a fundamental concept in mode
 + One-way functions alone cannot be used directly for encryption (can't decrypt).
 + A trapdoor one-way function is a special type of one-way function. It is easy to compute forward but Hard to reverse.BUT if you have secret information (trapdoor), reversing becomes easy.
 
-# Schneier 2015 — 2.4 One-Way Hash Functions
+# Schneier 2015 - 2.4 One-Way Hash Functions
 
 + A one-way hash function produces a fixed-length output from a variable-length input.
 + Main purposeof it is to create a digital fingerprint of data.
@@ -22,3 +22,21 @@ Bruce Schneier explains that one-way functions are a fundamental concept in mode
   * Hash function combined with a secret key.
   * Only someone with the key can verify it.
   * Provides both integrity and authentication.
+
+ # Install Hashcat and Test with Sample Hash
+
+ + I installed Hashcat on my server and then tested was it work or not.
+<img width="814" height="550" alt="installed" src="https://github.com/user-attachments/assets/f19ff88c-9902-45d7-8efc-40d16d48c6da" />
+
++ Then I create a new directory and downloaded the RockYou password dictionary, which contains over 14 million passwords.
+<img width="820" height="543" alt="Number of password" src="https://github.com/user-attachments/assets/821b3c61-13eb-44cb-8693-82012170784d" />
+
++ I ran the example-hashes and identified many mood.
++ I used Hashcat in MD5 mode (0) with the hashes.
++ Hashcat performed a dictionary attack by hashing each word and comparing it to the target hash.
++ The result was successfully solved, revealing the original password was summer.
+<img width="822" height="545" alt="solved" src="https://github.com/user-attachments/assets/b4539af7-349b-43c1-8552-a8d3c0001591" />
+
+
+
+
