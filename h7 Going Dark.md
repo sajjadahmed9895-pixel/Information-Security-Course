@@ -34,3 +34,26 @@
 
 ## History of The Onion Router
 
++ Tor was originally developed by the U.S. government in 2002, but it is not controlled by the government today.
++ It is open source, which means many experts around the world can review and improve it.
++ Tor was intended to support private communication.
++ Tor can also be abused for criminal purposes, just like many other technologies.
+
+## How The Onion Router Works
+
++ Tor routes internet traffic through multiple random relays, usually: entry node, middle node and exit node.
++ Data is wrapped in layers of encryption like an onion.
++ The exit node sends the traffic to the final destination.
++ Tor circuits change regularly, about every 10 minutes, making tracking even harder.
++ Tor is portable and easy to set up, which increases both its accessibility and its misuse.
+
+## Tracking Criminals Using Tor
+
++ Tracking Tor users is extremely difficult, and breaking Tor itself usually requires extraordinary resources.
++ In many cases, criminals are identified not because Tor was broken, but because they made mistakes.
++ One major case involved the FBI exploiting a Firefox vulnerability in Tor Browser to reveal users’ real IP addresses.
++ User mistakes are one of the biggest weaknesses in Tor use, such as- changing browser settings, opening unsafe files or using a normal browser by mistake.
++ The Harvard bomb threat case showed that Tor protected the communication, but the suspect was identified through local network logs and later confessed.
++ The Silk Road case showed that even one mistake outside the Tor network can reveal a suspect’s real identity.
+
+# 
