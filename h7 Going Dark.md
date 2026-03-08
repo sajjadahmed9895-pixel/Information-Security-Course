@@ -56,4 +56,26 @@
 + The Harvard bomb threat case showed that Tor protected the communication, but the suspect was identified through local network logs and later confessed.
 + The Silk Road case showed that even one mistake outside the Tor network can reveal a suspect’s real identity.
 
-# 
+# Install TOR browser and access TOR network 
+
++ I downloaded the Tor Browser from the official Tor Project website using the default browser in Debian 13. After downloading the Linux package, I extracted the archive file and opened the Tor Browser folder. Then I started Tor Browser using the ./start-tor-browser.desktop.
+![launch](https://github.com/user-attachments/assets/bba12ae8-e4f7-45da-ab87-6c88fa70b96d)
+
++ The browser launched and connected to the Tor network successfully.
+![tor](https://github.com/user-attachments/assets/99cd5f53-a2d7-4a68-83c5-3243e853644f)
+
+# Browse TOR network, find, take screenshots and comment
+
++ I used an onion search engine to explore the Tor network. Ahmia and DuckDuckGo are commonly used search engines for onion services.
+![tested](https://github.com/user-attachments/assets/db60c1ed-e7a9-4693-a0f3-009cfbf74dab)
+
+![afima](https://github.com/user-attachments/assets/888cc72b-2ac4-4c22-9a04-8408d6c867f1)
+
++ Forums on the Tor network allow users to communicate anonymously. These forums can be used for many purposes, including privacy discussions, technical topics, or controversial subjects.
+![fourms](https://github.com/user-attachments/assets/9bfbe48e-7f6a-4a5c-86a1-28cde6f7a808)
+
++ 
+
+
+
+
