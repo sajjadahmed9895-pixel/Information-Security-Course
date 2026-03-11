@@ -62,7 +62,7 @@
 ![launch](https://github.com/user-attachments/assets/bba12ae8-e4f7-45da-ab87-6c88fa70b96d)
 
 + The browser launched and connected to the Tor network successfully.
-![tor](https://github.com/user-attachments/assets/99cd5f53-a2d7-4a68-83c5-3243e853644f)
+![1](https://github.com/user-attachments/assets/aebadfc0-ec74-4cf8-b03a-5283de43d990)
 
 # Browse TOR network, find, take screenshots and comment
 
