@@ -74,7 +74,11 @@
 + Forums on the Tor network allow users to communicate anonymously. These forums can be used for many purposes, including privacy discussions, technical topics, or controversial subjects.
 ![fourms](https://github.com/user-attachments/assets/9bfbe48e-7f6a-4a5c-86a1-28cde6f7a808)
 
-+ 
++ I found an organizations provide official onion services. The BBC NEWS offer onion versions of their websites so that users can access news securely and anonymously.
+
+
++ During my exploration of the Tor network, I found the official onion site of the Central Intelligence Agency (CIA).
+
 
 
 
