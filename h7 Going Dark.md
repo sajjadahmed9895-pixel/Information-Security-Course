@@ -50,7 +50,7 @@
 
 # Install TOR browser and access TOR network 
 
-+ I downloaded the Tor Browser from the official Tor Project website using the default browser in Debian 13. After downloading the Linux package, I extracted the archive file and opened the Tor Browser folder. Then I started Tor Browser using the ./start-tor-browser.desktop.
++ I downloaded the Tor Browser from the official Tor Project website using the default browser in Debian 13. After downloading the Linux package, I extracted the archive file and opened the Tor Browser folder. Then I started Tor Browser using the Tor browser by running this command ./start-tor-browser.desktop.
 ![launch](https://github.com/user-attachments/assets/bba12ae8-e4f7-45da-ab87-6c88fa70b96d)
 
 + The browser launched and connected to the Tor network successfully.
